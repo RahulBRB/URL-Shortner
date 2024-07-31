@@ -1,0 +1,124 @@
+here css
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  height: 60px;
+  text-align: center;
+  background-color: #1f233e;
+  color: #ffffff;
+  line-height: 60px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+header h1{
+  color:white;
+}
+/* Main Content Styles */
+main {
+  background-color: #0087de;
+  height: 900px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: #1f233e;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+/* Logo Styles */
+.logo {
+  width: 110px;
+  height: auto;
+  margin-top: 40px;
+  object-fit: contain;
+}
+
+/* Container Styles */
+.container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Field Styles */
+#input {
+  width: 80%;
+  height: 37px;
+  border-radius: 3.2px;
+  border: solid 1px #1f233e;
+  background-color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+#shorten {
+  width: 100px;
+  height: 37px;
+  border-radius: 3.2px;
+  border: solid 1px #1f233e;
+  background-color: #1f233e;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #faf0f0;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#shorten:hover {
+  background-color: #333;
+  border-color: #333;
+  color: #ffffff;
+}
+
+#shorten:active {
+  background-color: #0087de;
+  border-color: #0087de;
+  color: #ffffff;
+}
+
+/* Response Field Styles */
+#responseField {
+  min-width: 200px;
+  min-height: 120px;
+  border: solid 2px #ffffff;
+  margin: 25px auto 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #000000;
+  background-color: blue;
+  overflow: auto;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}

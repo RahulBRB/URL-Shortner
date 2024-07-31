@@ -1,7 +1,7 @@
 # URL Shortener
 
 ## Overview
-
+**Note:** If the result is `undefined`, it means the API limit has been reached.<br>
 This project is a simple URL shortener application that utilizes the Rebrandly API to convert long URLs into short, manageable links. The application is built using HTML, CSS, and JavaScript, and demonstrates how to make AJAX requests to an external API.
 
 ![alt text](image.png)
